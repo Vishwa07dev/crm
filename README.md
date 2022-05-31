@@ -11,7 +11,6 @@ This code base contains logic/structure  for creating the Restful APIs for the C
     * API to support the CUSTOMER login. Login API call should return the access token, which will be used to make all the other calls
     * API to support the ENGINEER login. Login API call should return the access token, which will be used to make all the other calls. Login API will succeed only if the ENGINEER registration request has been approved by the ADMIN. Proper error message in the case ADMIN has yet not approved/rejected the registration request
     
-More details around this can be found [here](https://docs.google.com/document/d/1x866VrSsjchFf7dhD7U2zYLbzj-tt34STWuDMMyL6Uc/edit?usp=sharing) 
 
 ## How is the code organized in this repo ?
 The whole repo is divided into multiple branches. Each branch contains code for a specific concept. For example _session1_ has the code base for user registration and login . Each branch is built on the top of the previous branch
@@ -94,7 +93,6 @@ Sample response body :
     "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IlZpc2gwMSIsImlhdCI6MTY0NTMzMjg3NiwiZXhwIjoxNjQ1NDE5Mjc2fQ.21IRt9VIL-suvP7Z_lamH1PcchOB1TJOhZPSpX9kqt8"
 }
 ```
-POSTMAN collection [link](https://www.getpostman.com/collections/9168e824f523fb659502)
 
 ## Development
 
