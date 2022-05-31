@@ -5,13 +5,13 @@ This code base contains logic/structure  for creating the Restful APIs for the C
 ## Features
 * User Handling
     * API for getting the list of all users
-    * EAPI for the gettig the user based on UserID
+    * API for the gettig the user based on UserID
     * API for updating the user type and status
     * Authenticaing and Authorizing above APIs, so that only authenticated ADMIN user will be allowed to perform the above operations
     * ENGINEER/ADMIN user should be able to login successfully after the approval from ADMIN user
   
     
-More details around this can be found [here](https://docs.google.com/document/d/1x866VrSsjchFf7dhD7U2zYLbzj-tt34STWuDMMyL6Uc/edit?usp=sharing) 
+
 
 ## How is the code organized in this repo ?
 The whole repo is divided into multiple branches. Each branch contains code for a specific concept. For example _session1_ has the code base for user registration and login . Each branch is built on the top of the previous branch
@@ -128,9 +128,6 @@ Sample response body :
 }
 
 ```
-
-###
-POSTMAN collection [link](https://www.getpostman.com/collections/9168e824f523fb659502)
 
 ## Development
 
